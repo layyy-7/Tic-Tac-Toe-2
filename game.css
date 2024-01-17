@@ -1,0 +1,94 @@
+/*setting margin and padding to 0 for the document using universal selector*/
+/*this is a good programming practice*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #58A4B0;
+    text-align: center;
+}
+
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #A9BCD0;
+    color: #373F51;
+}
+
+.container1
+{
+    font-size: 5vh;
+    height: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 100vh;
+}
+
+/*this class is created to hide the container1 class whenever needed*/
+.hide
+{
+    display: none;
+}
+
+#msg
+{
+    color: #373F51;
+    font-size: 4rem;
+}
+
+#new
+{
+    background-color: #A9BCD0;
+    color: #373F51;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 2rem;
+}
+
+.container2
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game
+{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.box
+{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 2rem;
+    border: none;
+    font-size: 8vh;
+    color: #373F51;
+    background-color: #A9BCD0;
+}
+
+#reset
+{
+    background-color: #A9BCD0;
+    color: #373F51;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
