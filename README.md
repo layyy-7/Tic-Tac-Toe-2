@@ -1,5 +1,5 @@
 # Tic-Tac-Toe-2
-Code of Tic-Tac-Toe game
+Code of Tic-Tac-Toe game Web Page
 <br>
 This can be played between two players with each moving alternatively until one of them wins or the game is tied
 <br>
